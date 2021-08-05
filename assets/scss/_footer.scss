@@ -1,0 +1,103 @@
+//Variables
+$theOrange: orange;
+$theGold: #DBA514;
+$theGold2: #EEB609;
+$theGold3: #FCC201;
+$theGold4: #C69320;
+$theGold5: #B78628;
+$textcolor: #fff;
+
+.footer{
+  background-position: center;
+  background-repeat: no-repeat;
+  background-position: top;
+  height: 300px;
+  width: 100%; 
+  display: flex;
+
+  .row{
+    padding-top: 100px;
+    padding-left: 40px;
+     width: 80%;
+     display: flex;
+     justify-content: space-around;
+    div{
+
+      p{
+        color: $textcolor;
+        margin-bottom: 20px;
+        font-weight: bold;
+        font-size: 12px;
+      }
+      ul{
+        li{
+          font-size: 10px;
+          margin-bottom: 5px;
+          color: $textcolor;
+
+          i{
+            margin-right: 10px;
+            position: relative;
+            top: 6px;
+            color: $textcolor;
+          }
+          img{
+            width: 25px;
+            height: 25px;
+          }
+          a{
+            color: $textcolor;
+          }
+        }
+      }
+
+      #ooow{
+        display: flex;
+        li{
+          margin-right: 10px;
+        }
+      }
+    }
+  }
+
+}
+.pee{
+   font-size: 12px;
+  font-weight: bold;
+  color: $textcolor;
+
+ }
+ #rcnum{
+ }
+ p.rcpara{
+   margin-bottom: 5px!important;
+   margin-top: 20px;
+
+ }
+ @media screen and (max-width: 900px){
+   .footer .row{
+      padding-left: 10px;
+   }
+
+}
+@media screen and (max-width: 700px){
+  .footer{
+    flex-direction: column;
+    height: 450px;
+  }
+  .footer .row{
+    width: 100%;
+   }
+   .footer .row div p{
+     margin-bottom: 0px;
+   }
+   .footer .row:last-child{
+      padding-top: 0px;
+    }
+}
+
+@media screen and (max-width: 402px){
+  .footer .row div ul li i{
+    display: none;
+  }
+}

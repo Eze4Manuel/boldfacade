@@ -1,0 +1,92 @@
+<%- include('./template/header.ejs') %>
+
+<section class="contact">
+  <div class="row">
+    <div class="col s12 m6 l6">
+      <h4>Contact Us</h4>
+      <ul>
+
+
+        <li> <i class="material-icons">phone</i> +234 813 807 7111 </li>
+        <li> <i class="material-icons">mail</i> <a target="_blank" class='white-text' href='https://mail.google.com/mail/?view=cm&fs=1&tf=1&to=info@boldfacade.com&body='>info@boldfacade.com</a></li>
+        <li> <i class="material-icons">location_on</i> Suite A8 Innovation Plaza
+          Plot 770, Idris Gidadi Street
+          Behind Wuye Market.
+          Wuye District, Abuja </li>
+        <li style="margin-bottom: 5px"> <i class="material-icons">work</i> Weekday Working Hours: 09:00 - 17:00 </li>
+        <li style="margin-bottom: 5px"> <i class="material-icons">work</i> Saturday Working Hours: 10:00 - 13:00 </li>
+      </ul>
+    </div>
+    <div class="col s12 m6 l6">
+      <h4>Follow Us</h4>
+      <p>Social Contacts</p>
+      <ul class="timi">
+        <li><a target="_blank" href="https://www.facebook.com/BOLD-Facade-Development-Services-Limited-102939851325880/"><img src="assets/image/home/fab.png " alt="Facebook"> </a></li>
+        <li><a target="_blank" href="https://www.instagram.com/bold.facade/"> <img src="assets/image/home/ing.png " alt="Instagram"> </a></li>
+        <li><a target="_blank" href="https://twitter.com/@bold_architect"> <img src="assets/image/home/tw.png " alt="Twitter"></a> </li>
+        <li> <a target="_blank" href="https://wa.me/2348138077111"> <img src="assets/image/home/wt.png " alt="whatsapp"> </a></li>
+      </ul>
+    </div>
+    <div class="cnoge" style="background-image: url('assets/image/home/contact1.svg')">
+    </div>
+  </div>
+</section>
+
+<section class="contactform" id="getintouch">
+  <div class="newsletter container">
+    <h5>Stay Up To Date With The Latest News And Insight</h5>
+    <form class="" action="intactor" method="post">
+      <input type="text" name="email" value="" placeholder="Email" class="browser-default">
+      <button class="btn" type="submit" name="button">Subscribe</button>
+    </form>
+  </div>
+
+
+
+  <div class="formsubmit">
+    <h5>Lets Get In Touch Now</h5>
+    <div class="row container">
+      <form class="col s12" method="POST" action="sendmail">
+        <div class="row">
+          <div class="input-field col s12 m6">
+            <input id="first_name" name="firstname" type="text" class="validate">
+            <label for="first_name">First Name</label>
+          </div>
+          <div class="input-field col s12 m6">
+            <input id="last_name" type="text" class="validate" name="lastname">
+            <label for="last_name">Last Name</label>
+          </div>
+        </div>
+        <div class="row">
+          <div class="input-field col s12">
+            <input id="email" type="email" class="validate" name="mail">
+            <label for="email">Email</label>
+          </div>
+          <div class="input-field col s12">
+            <input id="phone" type="tel" class="validate" name="phone">
+            <label for="phone">Tel:</label>
+          </div>
+        </div>
+        <div class="row">
+          <div class="input-field col s12">
+            <input id="subject" type="text" class="validate" name="subject">
+            <label for="subject">Subject</label>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="input-field col s12">
+            <textarea id="textarea1" class="materialize-textarea" name="message"></textarea>
+            <label for="textarea1">Message</label>
+          </div>
+        </div>
+        <div class="row">
+          <button class="btn" type="submit" name="submit"> Send</button>
+        </div>
+      </form>
+    </div>
+
+  </div>
+
+</section>
+<%- include('./template/footer.ejs') %>

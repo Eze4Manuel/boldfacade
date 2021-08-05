@@ -1,0 +1,65 @@
+//Variables
+$theOrange: orange;
+$theGold2: #DBA514;
+$theGold: #EEB609;
+$theGold3: #FCC201;
+$theGold4: #C69320;
+$theGold5: #B78628;
+$textcolor: #fff;
+
+body{
+  background: #100600
+}
+.blog{
+  padding-top: 140px;
+  padding-bottom: 200px;
+
+     .vid1{
+       margin-bottom: 90px!important;
+       div{
+
+         video{
+            width: 100%;
+            box-shadow: 0px 19px 15px #000;
+            border-radius: 5px;
+         }
+       }
+     }
+     .vid2{
+       div{
+         video{
+            width: 100%;
+            border-radius: 5px;
+            box-shadow: 0px 19px 15px #000;
+         }
+       }
+     }
+
+     .advert{
+        text-align: center;
+        margin-top: 90px;
+        a{
+          background: $theGold2
+        }
+     }
+
+}
+
+@media screen and (max-width: 550px){
+  .blog .vid1{
+    margin-bottom: 30px!important;
+    width: 100%!important;
+  }
+  .blog .vid2{
+    width: 100%!important;
+
+  }
+  .blog a{
+    font-size: 9px!important;
+  }
+  .advert{
+    h4{
+      font-size: 20px!important;
+    }
+  }
+}

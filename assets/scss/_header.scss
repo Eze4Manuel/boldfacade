@@ -1,0 +1,75 @@
+//Variables
+$theOrange: orange;
+$theGold: #DBA514;
+$theGold2: #EEB609;
+$theGold2: #FCC201;
+$theGold2: #C69320;
+$theGold2: #B78628;
+
+*{
+  font-family: 'Poppins', sans-serif;
+}
+.placeholder{
+  width: 18%; 
+  a{
+    font-size: 12px;
+    line-height: 46px;
+  }
+
+}
+
+header{
+  z-index: 20;
+  nav{
+    box-shadow: none;
+    background: transparent!important;
+
+    ul{
+      display: flex;
+      justify-content: center;
+      li{
+
+        #logname{
+          margin-right: 0px;
+          padding-right: 0px;
+          position: relative;
+          top: -20px;
+            img{
+              width: 150px;
+              height: 80px;
+              margin-top: 26px;
+              transform: scale(2);
+              margin-right: 30px;
+              position: relative;
+              z-index: -1;
+            }
+        }
+        #where, #did{
+          width: 25px!important;
+          height: 25px!important;
+          margin-top: 20px;
+        }
+
+        a{
+          color: #fff;
+          font-size: 12px;
+          font-weight: normal;
+          padding-left: 20px;
+          padding-right: 20px;
+          line-height: 65px;
+        }
+        a:hover{
+          color: $theOrange;
+          background: none;
+        }
+      }
+    }
+    .sidenav{
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+    }
+  }
+
+
+}

@@ -1,0 +1,427 @@
+//Variables
+$theOrange: orange;
+$theGold: #EEB609;
+$theGold2: #DBA514;
+$theGold3: #FCC201;
+$theGold4: #C69320;
+$theGold5: #B78628;
+$textcolor: #fff;
+
+body{
+  background: #100600
+}
+///////////////////////////////////////////////
+.depend{
+  position: relative;
+  z-index: 10;
+  background: transparent!important;
+
+.gold1{
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  z-index: 1;
+  opacity: 0.2;
+}
+.g1{
+  top: 20%;
+  left: 20%;
+}
+
+.g2{
+  top: 40%;
+  left: 83%;
+}
+.g3{
+  top: 10%;
+  left: 80%;
+}
+
+.g4{
+  top: 96%;
+  left: 90%;
+}
+.g5{
+  top: 80%;
+  left: 35%;
+}
+.g6{
+  top: 57%;
+  left: 27%;
+}
+.b1{
+  top: 52%;
+  left: 70%;
+}
+.b2{
+  top: 70%;
+  left: 6%;
+}
+.b3{
+  top: 17%;
+  left: 52%;
+}
+.b4{
+  top: 35%;
+  left: 8%;
+}
+.b5{
+  top: 100%;
+  left: 40%;
+}
+
+.r1{
+  top: 60%;
+  left: 80%;
+}
+.r2{
+  top: 19%;
+  left: 90%;
+}
+.r3{
+  top: 39%;
+  left: 50%;
+}
+
+.r4{
+  top: 90%;
+  left: 5%;
+}
+
+.r5{
+  top: 8%;
+  left: 20%;
+}
+
+.r6{
+  top: 90%;
+  left: 60%;
+}
+}
+
+//////////////////////////////////////////////////////
+
+
+
+.about{
+  background: transparent;
+   position: relative;
+   height: 100%;
+   z-index: 5;
+   .row{
+     margin-bottom: 0px;
+    .scar{
+      margin-top: 120px;
+
+      h5{
+        margin-bottom: 20px;
+         color: $textcolor;
+         font-size: 35px;
+         text-align: center;
+      }
+      p{
+        margin-bottom: 80px;
+        color: $textcolor;
+        font-size: 13px;
+        text-align: center;
+        a{
+          font-size: 10px;
+          background: $theGold2;
+        }
+      }
+      ul{
+        display: flex;
+        flex-direction: row;
+        li:last-child{
+          a{
+            color: $theGold2;
+            margin-left: 20px;
+            margin-top: 15px;
+          }
+        }
+      }
+    }
+
+  }
+
+}
+
+.whyus{
+  background: transparent;
+  position: relative;
+  height: 100%;
+  .row{
+    margin-bottom: 0px;
+    .scar{
+      margin-top: 160px;
+      padding-left: 200px;
+      padding-right: 200px;
+      position: absolute;
+      top: -18%;
+      width: 100%;
+      left: 0%!important;
+      margin-left: auto;
+      margin-right: auto;
+
+      h5{
+        margin-bottom: 20px;
+         color: $textcolor;
+         font-size: 35px;
+         text-align: center;
+      }
+      p{
+        margin-bottom: 80px;
+        color: $textcolor;
+        font-size: 13px;
+        text-align: center;
+
+      }
+
+    }
+     .owo{
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: contain;
+      height: 500px;
+       margin-top: 40px;
+       z-index: -3
+    }
+  }
+}
+
+.vision{
+background: transparent;
+  position: relative;
+  width: 100%;
+  height: 100%;
+  z-index: 5;
+  .vision1{
+    margin-bottom: 50px;
+      p{
+        text-align: center;
+        color: $textcolor;
+        font-size: 13px;
+        margin-bottom: 20px;
+        a{
+          height: 60px;
+          width: 30%;
+          border-radius: 30px;
+          font-size: 20px;
+          font-weight: bold;
+          img{
+            width: 46px;
+            height: 34px;
+            margin-right: 0px;
+            position: relative;
+            top: 10px;
+          }
+        }
+      }
+  }
+  .vision2{
+       p{
+        text-align: center;
+        color: $textcolor;
+        font-size: 13px;
+        margin-bottom: 10px;
+        padding-top: 20px;
+
+           a{
+            height: 60px;
+            width: 30%;
+            border-radius: 30px;
+            font-size: 20px;
+            font-weight: bold;
+            img{
+              width: 46px;
+              height: 34px;
+              margin-right: 0px;
+              position: relative;
+              top: 10px;
+            }
+          }
+
+      }
+  }
+}
+
+.specialties{
+  padding-bottom: 60px;
+  margin-bottom: 0px;
+  padding-top: 90px;
+  position: relative;
+  background: transparent;
+  z-index: 5;
+  h4{
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 60px;
+    color: $textcolor;
+  }
+  div{
+    div{
+      .card{
+        height: 400px;
+        border-radius: 10px;
+        .card-content{
+          span{
+            text-align: center;
+               img{
+                width: 80px;
+                height: 100px;
+                margin: 0 auto;
+             }
+          }
+          h5{
+            font-size: 20px;
+            text-align: center;
+           }
+           p{
+             font-size: 11px;
+             text-align: center;
+           }
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 1024px){
+
+  .vision{
+    height: 450px;
+  }
+  .vision .vision1 p a,   .vision .vision2 p a{
+    width: 200px;
+  }
+}
+@media screen and (max-width: 990px){
+  .whyus .row .scar{
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+  .specialties div div .card .card-content h5{
+    font-size: 18px;
+  }
+  .specialties div div .card .card-content p{
+    font-size: 10px;
+  }
+  .specialties div div .card{
+    height: 370px;
+  }
+}
+
+@media screen and (max-width: 790px){
+   .specialties .row{
+      width: 95%;
+   }
+   .specialties div div .card .card-content span img{
+     width: 60px;
+     height: 80px;
+   }
+}
+
+
+@media screen and (max-width: 660px){
+  .card .card-content{
+    padding-left: 10px!important;
+    padding-right: 10px!important;
+  }
+.specialties div div .card .card-content h5{
+  font-size: 15px;
+}
+.whyus .row .owo, .about .row .owo{
+  display: none;
+}
+.about{
+  height: 500px;
+}
+.about .row .scar{
+  margin-top: 50px;
+  width: 100%;
+}
+.whyus{
+  height: 350px;
+  margin-top: 60px;
+}
+.whyus .row .scar{
+  margin-top: 0px;
+  padding-left: 50px;
+  padding-right: 50px;
+  width: 100%;
+}
+.vision .vision1 p{
+  padding: 0 80px;
+}
+.vision .vision1 p a, .vision .vision2 p a{
+  height: 50px;
+}
+}
+
+@media screen and (max-width: 601px){
+  .specialties{
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+  .specialties div div .card .card-content h5{
+    font-size: 20px;
+    margin-bottom: 20px;
+  }
+.specialties div div .card .card-content p{
+  font-size: 13px;
+}
+.card .card-content{
+  padding-left: 20px;
+  padding-right: 20px;
+}
+}
+
+@media screen and (max-width: 501px){
+
+  .specialties div div .card .card-content h5{
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
+  .specialties div div .card .card-content p{
+  font-size: 12px;
+  }
+  .card .card-content{
+  padding-left: 20px;
+  padding-right: 20px;
+  }
+  .vision .vision1 p, .vision .vision2 p{
+    padding: 0px 20px;
+  }
+  .about .row .scar, .whyus .row .scar{
+    padding: 0px 25px;
+  }
+  .about .row .scar p{
+    margin-bottom: 30px;
+  }
+  .about{
+    height: 350px;
+  }
+}
+@media screen and (max-width: 401px){
+.specialties{
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.about{
+  height: 380px;
+}
+.vision .vision1 p a, .vision .vision2 p a{
+  width: 169px;
+}
+}
+@media screen and (max-width: 341px){
+.about .row .scar p, .whyus .row .scar p{
+  font-size: 12px;
+}
+.about .row .scar, .whyus .row .scar{
+  padding: 0 10px;
+}
+}

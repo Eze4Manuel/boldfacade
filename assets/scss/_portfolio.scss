@@ -1,0 +1,418 @@
+//Variables
+$theOrange: orange;
+$theGold2: #DBA514;
+$theGold: #EEB609;
+$theGold3: #FCC201;
+$theGold4: #C69320;
+$theGold5: #B78628;
+$textcolor: #fff;
+
+body{
+  background: #100600;
+}
+
+///////////////////////////////////////////////
+.depend{
+  position: relative; 
+  z-index: 10;
+  background: transparent!important;
+
+.gold1{
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  z-index: 1;
+  opacity: 0.2;
+}
+.g1{
+  top: 20%;
+  left: 20%;
+}
+
+.g2{
+  top: 40%;
+  left: 83%;
+}
+.g3{
+  top: 10%;
+  left: 80%;
+}
+
+.g4{
+  top: 96%;
+  left: 90%;
+}
+.g5{
+  top: 80%;
+  left: 35%;
+}
+.g6{
+  top: 60%;
+  left: 40%;
+}
+.b1{
+  top: 52%;
+  left: 70%;
+}
+.b2{
+  top: 70%;
+  left: 6%;
+}
+.b3{
+  top: 17%;
+  left: 52%;
+}
+.b4{
+  top: 35%;
+  left: 8%;
+}
+.b5{
+  top: 100%;
+  left: 40%;
+}
+
+.r1{
+  top: 60%;
+  left: 80%;
+}
+.r2{
+  top: 19%;
+  left: 90%;
+}
+.r3{
+  top: 39%;
+  left: 50%;
+}
+
+.r4{
+  top: 90%;
+  left: 5%;
+}
+
+.r5{
+  top: 8%;
+  left: 20%;
+}
+
+.r6{
+  top: 90%;
+  left: 60%;
+}
+}
+
+//////////////////////////////////////////////////////
+
+.port{
+
+  height: 100%;
+  .row{
+    width: 85%;
+    margin-bottom: 0px;
+    .scar{
+      margin-top: 250px;
+       h5{
+        margin-bottom: 50px;
+         color: $textcolor;
+         font-size: 35px;
+         text-align: center;
+         width: 70%;
+         margin-left: auto;
+         margin-right: auto;
+      }
+      p{
+        margin-bottom: 80px;
+        color: $textcolor;
+        text-align: center;
+      }
+      ul{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        li a{
+          font-size: 10px;
+          background: $theGold2;
+
+        }
+        li:last-child{
+          a{
+            color: $theGold2;
+            margin-left: 20px;
+            margin-top: 15px;
+            font-size: 12px;
+            background: transparent!important;
+          }
+        }
+      }
+    }
+     .owo{
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: contain;
+      height: 450px;
+       margin-top: 150px;
+       width: 45%;
+    }
+  }
+
+}
+
+
+.history{
+
+   div{
+    padding-bottom: 60px;
+    padding-top: 150px;
+  h4{
+    margin-top: 0px;
+    text-align: center;
+    color: $textcolor;
+    margin-bottom: 20px;
+  }
+  p{
+    text-align: center;
+    margin-bottom: 60px;
+    font-size: 13px;
+    color: $textcolor;
+    a{
+      font-size: 10px;
+      background: $theGold2;
+    }
+  }
+  }
+  .cool{
+    width: 85%;
+    margin: auto;
+    padding-top: 0px;
+    h4{
+      text-align: center;
+      color: $textcolor;
+      font-weight: bolder;
+      font-size: 35px;
+    }
+    .cool1{
+      width: 96%;
+      margin: 0 auto;
+      padding-top: 0px;
+
+      .deck1{
+        padding-bottom: 30px;
+        padding-top: 60px;
+        ul{
+          display: flex;
+
+          li{
+            img{
+              width: 90px;
+              height: 80px;
+            }
+            h4{
+              margin-top: 10px;
+              color: $textcolor;
+              font-weight: bolder;
+              margin-left: 10px;
+              font-size: 25px;
+            }
+          }
+        }
+      }
+      .deck2{
+        padding-top: 0px;
+        padding: 0 10px 0px 40px;
+        .row{
+          margin-bottom: 0px;
+          padding-bottom: 0px;
+          padding-top: 0px;
+          div{
+            ul{
+              li{
+                img{
+                  width: 80px;
+                  height: 63px;
+                }
+                h5{
+                  font-weight: bolder;
+                  color: $textcolor;
+                  margin-bottom: 20px;
+                  font-size: 20px;
+                }
+              }
+              p{
+                text-align: left;
+              }
+            }
+          }
+        }
+      }
+
+    }
+  }
+
+}
+
+
+.storm{
+
+  .row{
+    width: 85%;
+    margin: 0 auto;
+    div{
+      margin-bottom: 80px;
+      padding-left: 0px;
+      padding-right: 50px;
+      ul{
+        display: flex;
+        flex-direction: column;
+          li{
+          img{
+            width: 90px;
+            height: 80px;
+          }
+          h4{
+            margin-top: 10px;
+            color: $textcolor;
+            font-weight: bolder;
+            margin-left: 10px;
+            font-size: 25px;
+          }
+        }
+      }
+      p{
+        font-size: 13px;
+        color: $textcolor;
+      }
+    }
+  }
+  .more{
+    margin-top: 90px;
+    text-align: center;
+    p{
+      a{
+        font-size: 10px;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 1200px){
+  .port .row .scar{
+    padding-left: 30px;
+    margin-top: 150px;
+  }
+  .storm .row{
+    }
+  .history .cool {
+    padding-bottom: 0px;
+    .cool1{
+      padding-bottom: 0px;
+    }
+  }
+}
+@media screen and (max-width: 900px){
+  .port{
+    height: 750px;
+  }
+  .port .row .scar ul{
+    flex-direction: row;
+
+    li{
+      margin-top: 20px;
+      text-decoration: underline;
+      text-align: center;
+    }
+  }
+}
+
+@media screen and (max-width: 800px){
+  .storm .row div ul li h4, .history .cool .cool1 .deck1 ul li h4{
+    font-size: 18px;
+  }
+  .history .cool .cool1 .deck2 .row div ul li h5{
+    font-size: 14px;
+  }
+  .history div{
+    padding-bottom: 0px;
+  }
+  .port{
+    height: 500px;
+  }
+  .history .cool .cool1 .deck1 ul li img, .storm .row div ul li img{
+    width: 72px;
+    height: 64px;
+  }
+  .history .cool .cool1 .deck2 .row div ul li img{
+    width: 72px;
+    height: 53px;
+  }
+  .history .cool .cool1 .deck2 .row div ul li h5{
+    margin: 0px;
+  }
+}
+
+@media screen and (max-width: 600px){
+  .port .row .owo{
+    display: none;
+  }
+  .port{
+    height: 630px;
+  }
+  .history .cool h4{
+    font-size: 30px;
+  }
+  .history .cool .cool1, .history .cool .cool1 .deck1{
+    padding-top: 0px;
+  }
+  .history div p{
+    margin-bottom: 30px;
+  }
+  .port .row .scar h5{
+    width: 100%;
+  }
+}
+@media screen and (max-width: 500px){
+  .port .row .scar ul{
+    flex-direction: column;
+  }
+  .history div{
+    padding-top: 0px;
+   }
+.history .cool .cool1 .deck2 .row{
+  margin-top: 0px;
+}
+}
+@media screen and (max-width: 450px){
+  .port{
+    height: 700px
+  }
+  .port .row .scar p{
+    margin-bottom: 40px;
+  }
+  .port .row .scar{
+    margin-top: 100px;
+  }
+.history .cool .cool1 .deck2 .row div ul p{
+  font-size: 10px;
+}
+.history .cool .cool1 .deck2 .row div ul li h5{
+  font-size: 12px;
+}
+.storm .row div{
+  padding-left: 0px;
+  padding-right: 30px;
+ }
+ .history div h4, .history .cool h4{
+   font-size: 20px;
+   margin-top: 120px;
+ }
+ .history .cool .cool1 .deck2{
+   padding: 0 0px 60px 40px
+ }
+ .history .cool .cool1 .deck1 ul{
+   flex-direction: column;
+ }
+ .port .row .scar{
+   padding-left: 0px;
+ }
+}

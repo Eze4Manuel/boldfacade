@@ -1,0 +1,183 @@
+ <section class="footer" style="background-image: url('assets/image/home/footer.svg')">
+   <link rel="stylesheet" href="/assets/css/footer.css">
+  <div class="row">
+    <div class="col s6 m6 l6">
+      <p>Our Company</p>
+
+      <ul>
+        <li><a href="/">Home</a></li>
+        <li><a href="about">About Us</a></li>
+        <li><a href="portfolio">Portfolio</a></li>
+        <li><a href="projects">Projects</a></li>
+        <li><a href="blog">Blog</a></li>
+        <li><a href="contact">Contact Us</a></li>
+      </ul>
+    </div>
+    <div class="col s6 m6 l6">
+      <p>Social Contacts</p>
+
+            <ul>
+              <li>Facebook</li>
+              <li>Instagram</li>
+              <li>Twitter</li>
+            </ul>
+
+    </div>
+
+    </div>
+    <div class="row">
+
+    <div class="col s6 m6 l6">
+      <p>Contact Us</p>
+
+      <ul>
+        <li> <i class="material-icons tiny"> phone</i> +234 813 807 7111</li>
+          <li> <i class="material-icons tiny"> mail</i><a href='https://mail.google.com/mail/?view=cm&fs=1&to=info@boldfacade.com&su=&body=&'>info@boldfacade.com</a></li>
+      </ul>
+      <p class="rcpara">RC Number:</p>
+      <ul id="rcnum">
+        <li>1659366</li>
+      </ul>
+    </div>
+    <div class="col s6 m6 l6">
+      <p>Address</p>
+        <ul>
+          <li>Suite A8 Innovation Plaza
+          Plot 770, Idris Gidadi Street
+          Behind Wuye Market.
+          Wuye District, Abuja
+          </li>
+        </ul>
+          <p>Follow Us</p>
+          <ul id="ooow">
+            <li><a target="_blank" href="https://www.facebook.com/BOLD-Facade-Development-Services-Limited-102939851325880/"><img src="assets/image/home/fb.png" alt="Facebook"></a></li>
+            <li><a target="_blank" href="https://www.instagram.com/bold.facade/"><img src="assets/image/home/ig.png" alt="Instagram"></a></li>
+            <li><a target="_blank" href="https://twitter.com/@bold_architect"><img src="assets/image/home/ttw.png" alt="Twitter"></a></li>
+            <li><a target="_blank" href="https://wa.me/2348138077111"> <img src="assets/image/home/wat.png " alt="whatsapp"> </a></li>
+          </ul>
+    </div>
+  </div>
+
+</section>
+
+<p class="center pee">copyright&copy;BoldFacade</p>
+
+ <script>
+$(document).ready(function(){
+  $('.b').click(()=>{
+    $('.vet').slider('next');
+  });
+  $('.f').click(()=>{
+    $('.vet').slider('prev');
+  })
+
+
+  $('.bb1').click(()=>{
+    $('.vet1').slider('next');
+  });
+  $('.f1').click(()=>{
+    $('.vet1').slider('prev');
+  })
+
+  $('.bb2').click(()=>{
+    $('.vet2').slider('next');
+  });
+  $('.f2').click(()=>{
+    $('.vet2').slider('prev');
+  })
+
+  $('.bb3').click(()=>{
+    $('.vet3').slider('next');
+  });
+  $('.f3').click(()=>{
+    $('.vet3').slider('prev');
+  })
+
+  $('.bb4').click(()=>{
+    $('.vet4').slider('next');
+  });
+  $('.f4').click(()=>{
+    $('.vet4').slider('prev');
+  })
+
+  $('.bb5').click(()=>{
+    $('.vet5').slider('next');
+  });
+  $('.f5').click(()=>{
+    $('.vet5').slider('prev');
+  })
+
+  $('.bb6').click(()=>{
+    $('.vet6').slider('next');
+  });
+  $('.f6').click(()=>{
+    $('.vet6').slider('prev');
+  })
+
+  $('.bb7').click(()=>{
+    $('.vet7').slider('next');
+  });
+  $('.f7').click(()=>{
+    $('.vet7').slider('prev');
+  })
+
+  $('.bb8').click(()=>{
+    $('.vet8').slider('next');
+  });
+  $('.f8').click(()=>{
+    $('.vet8').slider('prev');
+  })
+
+  $('.bb9').click(()=>{
+    $('.vet9').slider('next');
+  });
+  $('.f9').click(()=>{
+    $('.vet9').slider('prev');
+  })
+
+
+ $('.sidenav').sidenav();
+   $('.scrollspy').scrollSpy();
+  $('.materialboxed').materialbox();
+  $('.slider').slider({
+     indicators: true,
+    interval: 5000
+  });
+
+
+});
+////////////////////////////////////
+//using gsap
+var t1 = gsap.timeline({repeat: -1, yoyo: true});
+t1.to('.g1', {duration: 0.6, x: +100, ease:'linear'},"+=2");
+t1.to('.g3', {duration: 0.7, y: -60, ease:'linear'});
+t1.to('.b3', {duration: 0.6, x: +80, ease:'linear'});
+t1.to('.r2', {duration: 0.4, x: -40, ease:'linear'});
+t1.to('.r5', {duration: 0.7, y: +100, ease:'linear'});
+t1.to('.r5', {duration: 0.7, y: +100, ease:'linear'});
+
+var t2 = gsap.timeline({repeat: -1, yoyo: true});
+t2.to('.g2', {duration: 0.7, y: +30, ease:'linear'});
+t2.to('.g6', {duration: 0.5, x: +100, ease:'linear'});
+t2.to('.b1', {duration: 0.8, y: -90, ease:'linear'});
+t2.to('.b4', {duration: 0.7, x: +100, ease:'linear'},'-=1');
+t2.to('.r1', {duration: 0.3, x: +50, ease:'linear'});
+t2.to('.r3', {duration: 0.6, x: -70, ease:'linear'});
+t2.to('.r6', {duration: 1, x: +100, ease:'linear'});
+t2.to('.r6', {duration: 0.4, x: +100, ease:'linear'},'-=0.6');
+
+
+var t3 = gsap.timeline({repeat: -1, yoyo: true});
+t3.to('.g4', {duration: 0.5, y: -60, ease:'linear'});
+t3.to('.g5', {duration: 0.8, x: +50, ease:'linear'});
+t3.to('.b2', {duration: 0.4, x: +100, ease:'linear'},'-=0.3');
+t3.to('.b5', {duration: 0.6, x: +30, ease:'linear'});
+t3.to('.r4', {duration: 0.6, y: -100, ease:'linear'},'-=0.3');
+t3.to('.r4', {duration: 0.9, y: -100, ease:'linear'},'-=0.8');
+</script>
+
+<!-- Compiled and minified JavaScript -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+</body>
+</html>

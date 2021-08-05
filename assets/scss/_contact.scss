@@ -1,0 +1,175 @@
+//Variables
+$theOrange: orange;
+$theGold2: #DBA514;
+$theGold: #EEB609;
+$theGold3: #FCC201;
+$theGold4: #C69320;
+$theGold5: #B78628;
+$textcolor: #fff;
+
+body{
+  background: #100600;
+}
+.contact{ 
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+   height: max-height;
+   position: relative;
+   z-index: 0;
+    .row{
+     padding-top: 200px;
+     width: 90%;
+     margin: 0 auto;
+
+     div{
+       z-index: 1;
+       position: relative;
+       h4{
+         font-weight: bold;
+         color: $textcolor;
+
+       }
+       p{
+         font-weight: bold;
+         margin-bottom: 30px;
+         color: $textcolor;
+
+       }
+       ul{
+         li{
+           margin-right: 20px;
+           margin-bottom: 40px;
+           color: $textcolor;
+           i{
+             position: relative;
+             top: 7px;
+             margin-right: 10px;
+           }
+           img{
+             width: 40px;
+             height: 40px;
+           }
+         }
+       }
+       .timi{
+
+           display: flex;
+           flex-direction: row;
+           li{
+
+           }
+       }
+     }
+     .cnoge{
+       background-position: center;
+       background-repeat: no-repeat;
+       background-size: contain;
+       position: relative;
+        height: 800px;
+        opacity: 0.8;
+        z-index: 0;
+     }
+   }
+}
+
+
+.contactform{
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  padding-bottom: 100px;
+  z-index: 1;
+      .newsletter{
+      h5{
+        font-weight: bold;
+        color: $textcolor;
+        text-align: center;
+        margin-top: 0px;
+      }
+      form{
+        .browser-default{
+          width: 100%;
+          height: 50px;
+           box-shadow: 3px 3px 7px lightgrey;
+           border-radius: 10px;
+            margin: 40px auto 10px;
+            padding-left: 30px;
+        }
+        button{
+          width: 100%;
+          text-align: left;
+          font-size: 12px;
+          font-weight: bold;
+          height: 50px;
+          border-radius: 10px;
+          background: $theGold2;
+        }
+      }
+    }
+    .formsubmit{
+      h5{
+        font-weight: bold;
+        color: $textcolor;
+        text-align: center;
+        margin-top: 50px;
+      }
+      .row{
+      background: #fff;
+      border-radius: 6px;
+      width: 70%;
+      margin: 0 auto;
+      padding-top: 10px;
+      margin-top: 20px;
+      padding-bottom: 35px;
+      form{
+        .row{
+          padding-bottom: 0px;
+           button{
+            width: 100px;
+            height: 40px;
+            border-radius: 6px;
+            font-size: 12px;
+            background: $theGold2;
+          }
+        }
+      }
+     }
+
+  }
+}
+
+
+
+@media screen and (max-width: 660px){
+  .contact .row div h4{
+    font-size: 20px;
+  }
+  .contact .row div ul li{
+    font-size: 12px;
+    margin-bottom: 10px;
+  }
+  .contact .row{
+    padding-top: 50px;
+  }
+  .contactform .formsubmit .row {
+    width: 90%;
+    padding-top: 20px;
+  }
+  .contactform .newsletter h5, .contactform .formsubmit h5{
+    font-size: 20px;
+  }
+  .input-field{
+    margin-bottom: 0px;
+    margin-top: 0px;
+  }
+  .contactform .formsubmit .row form .row{
+    margin: 0px;
+    padding-top: 0px;
+  }
+input:not([type]).validate+label, input[type=text]:not(.browser-default).validate+label, input[type=password]:not(.browser-default).validate+label, input[type=email]:not(.browser-default).validate+label, input[type=url]:not(.browser-default).validate+label, input[type=time]:not(.browser-default).validate+label, input[type=date]:not(.browser-default).validate+label, input[type=datetime]:not(.browser-default).validate+label, input[type=datetime-local]:not(.browser-default).validate+label, input[type=tel]:not(.browser-default).validate+label, input[type=number]:not(.browser-default).validate+label, input[type=search]:not(.browser-default).validate+label, textarea.materialize-textarea.validate+label{
+    font-size: 12px;
+  }
+}

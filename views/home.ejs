@@ -1,0 +1,117 @@
+
+<%- include('./template/header.ejs') %>
+<link rel="stylesheet" href="/assets/css/indexstyle.css">
+
+  <style media="screen">
+    nav{
+      display: none;
+    }
+    header nav{
+      background: transparent!important;
+    }
+
+    body{
+      height: 100%;
+      position: absolute;
+      background: #100600;
+      width: 100%;
+      z-index: -100;
+      font-style: $font1;
+
+    }
+      .footer, .pee{
+      display: none!important;
+    }
+  </style>
+  <script type="text/javascript">
+
+     $(window).on('load', ()=>{
+       let a = document.getElementsByClassName('slider');
+       let b = document.getElementsByClassName('dave');
+       let c = document.getElementsByTagName('nav');
+         b[0].style.display = 'none';
+         a[0].style.display = 'block';
+          c[0].style.display = 'block';
+     })
+  </script>
+
+  <div class="dave">
+    <img src="assets/image/home/favicon.png" alt="Boldfacade">
+  </div>
+
+  <section class="slider vet">
+    <ul class="slides">
+      <li>
+        <img class="box" src="assets/image/slide/aa.webp"> <!-- random image -->
+      </li>
+      <li>
+        <img  src="assets/image/slide/ab.webp"> <!-- random image -->
+
+      </li>
+      <li>
+        <img class="box" src="assets/image/slide/ba.webp"> <!-- random image -->
+      </li>
+
+      <li>
+        <img  src="assets/image/slide/bb.webp"> <!-- random image -->
+      </li>
+
+      <li>
+        <img  src="assets/image/slide/cb.webp"> <!-- random image -->
+      </li>
+
+      <li>
+        <img class="box" src="assets/image/slide/cc.webp"> <!-- random image -->
+      </li>
+
+      <li>
+        <img  src="assets/image/slide/da.webp"> <!-- random image -->
+      </li>
+
+      <li>
+        <img  src="assets/image/slide/dc.webp"> <!-- random image -->
+      </li>
+
+      <li>
+        <img  src="assets/image/slide/ga.webp"> <!-- random image -->
+      </li>
+
+
+      <li>
+        <img class="box" src="assets/image/slide/fa.webp"> <!-- random image -->
+      </li>
+
+      <li>
+        <img class="box" src="assets/image/slide/fc.webp"> <!-- random image -->
+      </li>
+
+      <li>
+        <img class="box" src="assets/image/slide/ha.webp"> <!-- random image -->
+      </li>
+      <li>
+        <img class="box" src="assets/image/slide/p3.webp"> <!-- random image -->
+      </li>
+      <li>
+        <img class="box" src="assets/image/slide/p4.webp"> <!-- random image -->
+      </li>
+      <li>
+        <img class="box" src="assets/image/slide/m2.webp"> <!-- random image -->
+      </li>
+      <li>
+        <img class="box " src="assets/image/slide/o3.webp"> <!-- random image -->
+      </li>
+      <li>
+        <img class="box " src="assets/image/slide/hb.webp"> <!-- random image -->
+      </li>
+      <li>
+        <img class="box " src="assets/image/slide/uv.webp"> <!-- random image -->
+      </li>
+
+    </ul>
+
+    <span class="arrowB b" style="background-image: url('assets/image/navigation/next.png')">  </span>
+    <span class="arrowF f" style="background-image: url('assets/image/navigation/back.png')">  </span>
+  </section>
+
+
+<%- include('./template/footer.ejs') %>
